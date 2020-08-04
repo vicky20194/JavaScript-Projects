@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div id="container">
+        <div id="inside_container">
+            <h2>Enter Temperature</h2>
+            <div id="inner">
+                <div id="converter">
+                    <h3>Fahrenheit</h3>
+                    <input id="temp_input" type="text"/>
+                </div>
+                <button id="converter_btn">Convert</button>
+                <div id="converter_answer">
+                    <h3>Celcius</h3>
+                    <p id="answer"></p>
+                </div>
+                <button id="btn">
+                    <i id="refresh" class="fa fa-refresh" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
