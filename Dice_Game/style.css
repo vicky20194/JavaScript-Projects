@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightcoral;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#container{
+    width: 60vw;
+    height: 60vh;
+    background: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#scorecard{
+    display: flex;
+    justify-content: space-around;
+}
+
+#player1,
+#player2{
+    margin: 50px auto;
+}
+
+#player1rolled,
+#player2rolled{
+    font-size: 30px;
+    text-align: center;
+}
+
+.active{
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    background: pink;
+    box-shadow: 1px 1px 10px 1px black;
+    width: 5rem;
+    height: 2rem;
+}
+.dice{
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    background: pink;
+    width: 5rem;
+    height: 2rem;
+}
+
+
+#rolebtn{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background: palevioletred;
+    cursor: pointer;
+    outline: none;
+    font-weight: 900;
+}
+
+#resetbtn{
+    display: none;
+    margin: auto;
+    padding: 10px;
+    background: palevioletred;
+    cursor: pointer;
+    outline: none;
+    font-weight: 900;
+}
+
